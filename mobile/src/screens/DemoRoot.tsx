@@ -11,11 +11,6 @@ import { CompetitionDetailsScreen } from './CompetitionDetailsScreen';
 const ENV_USER = process.env.EXPO_PUBLIC_USER_ID;
 const ENV_COMPETITION = process.env.EXPO_PUBLIC_COMPETITION_ID;
 
-/**
- * Stand-in for the rest of the app (login + navigation), which is out of scope.
- * It picks a user and a competition and hands `competitionId` to the real screen,
- * which is exactly what a navigation param would do in production.
- */
 export function DemoRoot() {
   const { t, lang } = useLanguage();
   const [users, setUsers] = useState<DemoUser[]>([]);

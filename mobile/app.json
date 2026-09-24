@@ -5,8 +5,23 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "ios": { "supportsTablet": false },
-    "android": { "adaptiveIcon": { "backgroundColor": "#0A7570" } },
-    "experiments": { "typedRoutes": false }
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A7570"
+      },
+      "package": "com.partha.feedants"
+    },
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "add9e737-6014-432f-8149-cb36325a31c1"
+      }
+    },
+    "owner": "iamparthadass-team"
   }
 }
