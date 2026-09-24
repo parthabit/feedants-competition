@@ -1,6 +1,7 @@
 const Competition = require('../models/Competition');
 const Registration = require('../models/Registration');
 const Submission = require('../models/Submission');
+const Judge = require('../models/Judge');
 const TtlCache = require('../utils/ttlCache');
 const config = require('../config');
 const { Errors } = require('../utils/AppError');
