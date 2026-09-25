@@ -1,6 +1,6 @@
 # Feedants — Competition Details (Full-Stack Assignment)
 
-A functional, full-stack implementation of the Competition Details screen: **React Native (Expo)** frontend, **Node.js + Express** backend, **MongoDB** database. Every value on screen (prize pool, spots left, countdown, registration/submission state, rewards, judge, winners, testimonials, referral link) is served from the database — nothing is hardcoded in the app.
+A functional, full-stack implementation of the Competition Details screen: **React Native (Expo)** frontend, **Node.js + Express** backend, **MongoDB** database. Every value on screen (prize pool, spots left, countdown, registration/submission state, rewards, judge, winners, testimonials,referral link) is served from the database — nothing is hardcoded in the app.
 
 ```
 feedants-competition/
